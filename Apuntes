@@ -1,0 +1,20 @@
+man //comando para abrir el manual
+man man // manual para saber como se usa el manual
+man// sirve para buscar para que sirve cualquier comando ej man ls dira para que sirve ls
+man info //manual
+info man //informacion
+///////////////////////////////////////////////////////////////////////
+pwd //dice en que carpeta estas
+ls // nombra las carpetas que hay lista archivos
+
+echo "hola mundo" >> texto.txt//crea un archivo de texto
+ls -lstah//muestra carpetas ocultas en su totalidad
+ls -lsta // ls -lst // ls -s // ls-t
+cat texto.txt //muestra el contenido de la carpeta
+more texto.txt
+less texto.txt
+history //muestra el historial de comandos usados
+history >> historial.txt //usado para guardar en un txt el historial de comandos
+cat historial.txt //muestra el archivo txt del historial guaradado
+cd .. //se dirige a homes
+cd alumno/ +tab
