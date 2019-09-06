@@ -22,3 +22,4 @@ fefora medical
 
 osboxes// desde aca descargaremos nuestras
 maquinas virtuales
+rapsbian //rasperriepie minicompu
