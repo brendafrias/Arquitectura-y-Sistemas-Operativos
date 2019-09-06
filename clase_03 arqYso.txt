@@ -18,7 +18,7 @@ electronica arduino
 
 poseidon linux // usado para hacer mapeo y localizacion
 debian med // usado para medicina
-fefora medical
+fedora medical
 
 osboxes// desde aca descargaremos nuestras
 maquinas virtuales
