@@ -23,3 +23,46 @@ fedora medical
 osboxes// desde aca descargaremos nuestras
 maquinas virtuales
 rapsbian //rasperriepie minicompu
+
+////////////////////////////////////////////////////////////////////////
+
+uname
+uname -r
+uname -m //info so
+
+uptime
+
+hostname //local host o nombre de pc
+hostname -i //me dara la ip
+last reboot //dara la fecha y hora del ultimo reboteo
+last //muestra mas informacion
+
+reboot // se reinicia la pc jsjsjsjjs
+
+date // devuelve la fecha se puede usar para 
+guardar la fecha en un archivo.
+
+cal // aparece un calenario con la fecha del dia resaltada
+
+whoami // me dice quien soy
+w //si tenes mas de un usuario dice donde esta
+
+finger -s usuario  //finger -s alumno //muestra encolumnados
+a todos los usuarios
+
+///////////////////////////////////////////////////////
+variables internas de linux
+
+echo $USER
+echo $HOME
+echo $HOSTNAME
+echo $PWD
+echo $SHELL
+//////////////////////7
+para hardware
+
+cat /proc/cpuinfo // muestra la info de la cpu
+
+cat /proc/meminfo //muestra informasicon de la memoria
+cat /proc/interrupts
+
