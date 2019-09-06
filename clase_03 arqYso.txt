@@ -1,0 +1,24 @@
+gpl2 y gpl3
+diferencias
+
+
+kxstudio y musix ubuntu studio
+
+ArtistX version de ubutunto para
+ edicion de video y creacion de graficos 2d y 3d
+qimo 4 kids sistema perativos para chicos.
+kali linux//servidores
+wifislax
+santoku linux para celulares
+
+caine linux //informatica forence(?
+
+electronics lab fedora //para hacer cosas de 
+electronica arduino
+
+poseidon linux // usado para hacer mapeo y localizacion
+debian med // usado para medicina
+fefora medical
+
+osboxes// desde aca descargaremos nuestras
+maquinas virtuales
