@@ -1,0 +1,27 @@
+La virtualizacion 
+
+ventajas:
+1)si tenemos maquinas en desuso la podemos usar para alquilarlas con virtualizacion
+esto permitio que podamos tener muchas maquinas en una.
+
+
+el hypervisor , monitor de maquina virtual es un programa que conoce la comunicacion con el sistema operativo hasta llegar
+al hardware, tamb puede ser un hypervisor que este dentro del sistema operativo y acede directamente al hardware esto
+mejora el rendimiento porq tendra que atravezar menos capas o permisos.
+Tipos de hypervisor:
+tipo 1:es aquel que se ejecuta directamente sobre el hardware del host.
+tipo 2: es el que hay que descargar el software, este hara de intermediarios
+hereda la compatibilidad de lsistema operativos host, el 2 no es tan eficiente como el 1
+
+Nombre de programas para la virtualziacion:
+virtual box xen kvm openVZ vwmware
+
+
+Ventajas:
+
+Reducción de costos: Esta podría llegar a ser una de las principales ventajas de la virtualización,
+ ya que gracias a esto reducirás el uso de servidores físicos.Aumenta la seguridad: Será más fácil 
+realizar copias de seguridad a tus máquinas virtuales ya que permite programar más rápido y fácil los backups.
+Fácil manejo de la información: Al momento de presentar inconvenientes con tu máquina electrónica o problemas 
+con tu sistema operativo, por tratarse de una máquina virtual, podrás trasladar tu información a un servidor
+ físico diferente fácil y rápido y continuar con tu trabajo
