@@ -2,7 +2,7 @@
 
 sudo fdisk
 
-sudp fdisk sda //usado para haer una particion formateada
+sudp fdisk sda //usado para haer una particion formateada 
 sudo fdisk sdb //usdado para hcaer una particion formateada
 
 
@@ -46,3 +46,8 @@ creamos la carpeta disco uno
 mkdir disco-uno
 
 
+
+/////////////////////////////////////////////////////////////////////////////////
+
+crear dos discos de 5gb 
+uno particionarlo en 4gb y en 1gb  el otro de 2gb y 3gb
