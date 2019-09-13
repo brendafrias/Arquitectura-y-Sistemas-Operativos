@@ -1,0 +1,48 @@
+/dev 
+
+sudo fdisk
+
+sudp fdisk sda //usado para haer una particion formateada
+sudo fdisk sdb //usdado para hcaer una particion formateada
+
+
+mkfs //sistema de archivos
+
+mkfs.ext3
+mkdosfs
+
+
+sudo mkfs.ext3 /dev/sdb1 //usado para
+crear el disco
+
+
+
+pregunta de parcail
+
+
+si pongo mkfs al disco rigido que extencion o formato tiene
+sudo mkfs /dev/sdb2
+
+lsblk //lista bloques de discos
+
+lsblk --fs //muestra las ext de cada disco
+
+lsblk -m//me da los permisos
+
+lsblk -fm //los permisos y la extencion
+
+el da1 ext4 //la ruta que me dara es la ruta madre del disco C
+
+luego ponemos el comando mount primero el disco despues la carpeta 
+de destino
+
+sudo mount /dev/sdb1 /home/alumno/disco-uno
+
+mkfs.ext3 /dev/sdb2 //usado para cambiar la extencion
+
+/* ahora hay que decidir donde poner los discos para luego acceder */
+vamos al home
+creamos la carpeta disco uno
+mkdir disco-uno
+
+
