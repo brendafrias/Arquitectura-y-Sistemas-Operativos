@@ -1,0 +1,9 @@
+Luego de tener la maquina virtual creada, con memoria virtual.
+Instalacion de los paquetes requeridos Apache 2 PHP 7.0 y MySQLserver.
+Ejecutaremos los siguientes comandos:
+sudo apt-get update
+sudo apt-get install -y apache2 libapache2-mod-php7.0 \
+php7.0-gd php7.0-json php7.0-mysql php7.0-curl \
+php7.0-intl php7.0-ncrypt php-imagick \
+php7.0-zip php7.0-xml php7.0-nbstring 
+esto nos instalara el apache y los modulos de php
