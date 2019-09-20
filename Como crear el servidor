@@ -20,3 +20,5 @@ para darle permisos de escritura y lectura
 luego creamos un usuario en owncloud
 
 para acceder a nuestra nube ingresamos en el explorador http://localhost/owncloud
+si la maquina virtual es reiniciada debemos volver a ejecutar el servidor con el siguiente comando
+/opt/lampp/lampp start
