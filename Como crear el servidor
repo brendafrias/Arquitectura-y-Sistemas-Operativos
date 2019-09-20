@@ -1,9 +1,22 @@
 Luego de tener la maquina virtual creada, con memoria virtual.
-Instalacion de los paquetes requeridos Apache 2 PHP 7.0 y MySQLserver.
-Ejecutaremos los siguientes comandos:
-sudo apt-get update
-sudo apt-get install -y apache2 libapache2-mod-php7.0 \
-php7.0-gd php7.0-json php7.0-mysql php7.0-curl \
-php7.0-intl php7.0-ncrypt php-imagick \
-php7.0-zip php7.0-xml php7.0-nbstring 
-esto nos instalara el apache y los modulos de php
+
+luego descargamos el programa xampp desde el link del pdf
+utilizamos wget para descargar el archivo
+luego ponemos el archivo descargado en el escritorio verificamos en las propiedades que los permisos sean accecibles
+y con el siguiente comando ejecutamos el instalador sudo su "./ +tab "
+luego de que se instale
+inisiamos los servidores de xampp dentro de la aplicacion con go to aplicacion
+
+comprobamosen el localhost si se abrio el servidor
+luego descargamos owndcloud desde el link del pdf
+luego ejecutamos el zip con el comando unzip y el nombre del archivo
+una vez descomprimido copiamos la carpeta con elcomando mv nombre del archivo espacio lugar de destino
+el lugar de destino esta en el pdf
+
+luego creamos un archivo para la conf del server como dice en el pdf
+
+luego escrivimos el comando sudo chmod -R 777 /opt/lamp 
+para darle permisos de escritura y lectura
+luego creamos un usuario en owncloud
+
+para acceder a nuestra nube ingresamos en el explorador http://localhost/owncloud
