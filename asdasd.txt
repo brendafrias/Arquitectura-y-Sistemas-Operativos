@@ -1,8 +1,13 @@
-/dev 
+ls /dev  //para ver si se hicieron los discos
+lsblk //para ver que contiene ese disco si es el que yo cree y tirara los gb que tiene cada disco
 
 sudo fdisk
 
-sudp fdisk sda //usado para haer una particion formateada 
+sudp fdisk /dev/sdb //usado para haer una particion formateada sdb= el discso que quiero formatiar  //LUEGO APRETAMOS LA TECLA n PARA CREAR UNO NUEVO luego la p para que sea primaria luego nos pedira indicar la cantidad de particiones que queremos en ese disco
+enter enter y cuando nos pide el tamaño indicamos ej +1,5G /O +1,5GB
+luego w para guardar los cambios y q para salir
+si necesitamos dos particiones en el disco volvemos a entrar al disco y copiamos lso pasos
+
 sudo fdisk sdb //usdado para hcaer una particion formateada
 
 
@@ -36,6 +41,9 @@ el da1 ext4 //la ruta que me dara es la ruta madre del disco C
 luego ponemos el comando mount primero el disco despues la carpeta 
 de destino
 
+para crear una carpeta de destino o varias usamos el comando
+mkdir {primerouno,primerodos,segundouno} //crea 3 carpetas
+
 sudo mount /dev/sdb1 /home/alumno/disco-uno
 
 mkfs.ext3 /dev/sdb2 //usado para cambiar la extencion
@@ -51,3 +59,7 @@ mkdir disco-uno
 
 crear dos discos de 5gb 
 uno particionarlo en 4gb y en 1gb  el otro de 2gb y 3gb
+
+
+
+//si se puede actualizar de un fork a otro //fideos lucheti
