@@ -1,0 +1,6 @@
+git status
+git add .
+git config --global user.email "befri_@hotmail.com"
+git config --global user.name "brendafrias"
+git commit -m "Martes que viene parcial de programacion" 
+git push origin master
