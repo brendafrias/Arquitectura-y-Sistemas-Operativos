@@ -1,0 +1,40 @@
+es actualizar nuestro repositorio q esta en nuestro sistema operativo con un push
+esto se puede hacer sin apagar o reiniciar el sistema
+
+cd /etc/apt
+ls //mostramos que tiene esa carpeta
+cat sources.list //los links no comentados
+
+
+cd /var/lib
+cd apt
+ls // nosmostrara list mirrors periodic
+
+si necesito actualizar algo tiro la url ahi
+
+
+apt-get check //verificar si esta actualizado
+apt-get update //actualizarlo //hace un clone del repositorio es necesario poner el siguiente
+comando para instalar el paquete.
+
+apt-get upgrade //instala el paquete //se pueden generar conflictos porq cambian los paquetes
+//para esto sera necesario actualizar la distrubucion completa con el siguiente comando
+
+apt-get dist-upgrade //descarga la nueva distribucion
+apt-get install mc
+apt-get reinstall
+apt-get remove mc//lo borra pero no por completo si lo quiero borrar por completo purge--remove
+apt-get clean //borra la carpeta total las cosas ya estan instaladas en sus respectivos directorios
+/bar/cache/apt archives //los archivos se guardan ahi(? talvez
+
+apt-get autoremove //sin conocer la libreria elimina todas las que no estan siendo tocadas
+con hipervinculo puntero
+--------------------------------------------------------------------------------
+
+apt-cache //me va a indicar informacion de lpaquete o dependencia
+apt-cache mc
+
+dpkg //descargo un archivo .dev ponemos dpkg .dev para esto debere tener el instalable
+//desventaja no esta en ningun listado y habra que actualizar todo denuevo
+//la traduccion de dpkg es desempaquetar
+dpkg -S /bin/ls
