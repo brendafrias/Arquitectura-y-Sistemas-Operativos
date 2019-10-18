@@ -104,3 +104,11 @@ lvcreate
 /dev/mapper/vgapp1-lvapp1 on /app/app1 type ext4 (rw,relatime,data=ordered)
 /dev/mapper/vgapp2-lvapp2 on /app/app2 type ext4 (rw,relatime,data=ordered)
 /dev/mapper/vgdb-lvdb1 on /db type ext4 (rw,relatime,data=ordered)
+
+
+
+luego me dio paja de copiar asiq mira el pdf
+
+
+/////////////////////////////////////////////////
+comanditos extras vgextend lvextend rezise2fs vgreduce lvreduce
