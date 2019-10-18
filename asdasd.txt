@@ -63,3 +63,44 @@ uno particionarlo en 4gb y en 1gb  el otro de 2gb y 3gb
 
 
 //si se puede actualizar de un fork a otro //fideos lucheti
+
+
+
+
+18/10
+al crear una particion le cambiamos el formato con t y ponemos 8e que seroa eñ formato LVM
+pvcreate + la direccion de la particion en este caso /dev/sdb1
+
+pvs // lista los cuatro volumenes fisicos que coinsiden con las direcciones
+ahora con cada uno de esos discos voy a meterlos en un 
+
+vgcreate //usado para crear el contenedor rag funcionalidad  grupo de volumenes puede tener mas de un volumen en el mismo comando le ponemos el nombre por ej vg app1 / vg test / vg prod /vg db
+
+vgcreate vgapp1 /dev/sdb1
+
+luego volvemos a ejecutar pvs // esto nos indicara donde pertenecen nuestras particiones
+vgs// nos muestra cuanto tiene cada uno
+
+tengo un disco rigido y tengo que cerar unidades logicas dinamicas apara poderlas formatear
+
+lvcreate 
+ lvcreate -l +100Free -n lvapp1 vgapp1 //indico la cantidad de gigas que quiero
+ 
+ lvs
+ 
+ luego vamos a a la carpeta dev/mapper
+ vemos q esten todos y luego tiramos este comando
+ 
+  mkfs.ext4 /dev/mapper/vgapp1-lvapp1  //para cambiarle la extencion con cada uno de los discos
+  
+  Ahora, realizamos los puntos de montajes
+# mkdir -p /app/{app1,app2}
+# mkdir /db
+# mount /dev/mapper/vgapp1-lvapp1 /app/app1
+# mount /dev/mapper/vgapp2-lvapp2 /app/app2
+# mount /dev/mapper/vgdb-lvdb1 /db
+# mount
+….
+/dev/mapper/vgapp1-lvapp1 on /app/app1 type ext4 (rw,relatime,data=ordered)
+/dev/mapper/vgapp2-lvapp2 on /app/app2 type ext4 (rw,relatime,data=ordered)
+/dev/mapper/vgdb-lvdb1 on /db type ext4 (rw,relatime,data=ordered)
