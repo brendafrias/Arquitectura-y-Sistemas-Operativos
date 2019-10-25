@@ -1,0 +1,29 @@
+el bios es un sistema aparte diseñado para poder darle acceso a alguein a todos los perifericos
+que tiene enchufados el bios es el primer proseso que se inicia, la particion primaria son las que pueden iniciar
+la computadora "bootloader". kernel es un software que constituye una parte fundamental del sistema operativo,
+y se define como la parte que se ejecuta en modo privilegiado (conocido también como modo núcleo). tiene la caracteristica
+de interactuar tanto con el sistema operativo como el hardware, decide y controla quien tiene permisos, el kernel puede detener procesos.
+el proseso principal q se ejecuta desp del kernel es el proceso INIT si este proseso muere todos los demas mueren, el proseso init es el
+que controlara todo init seria una instancia del kernel.
+----------------------------------------------------------------------------------------
+creamos una carpeta de pruebas y en ella ingresamos los siguientes comandos
+while true;do echo "'date'" >> fecha.txt;sleep 2;done
+
+more fecha.txt &
+top muestra los procesos en tiempo real
+crtl z para salir
+top &
+ps
+jobs
+
+estamos dejando prosesos en segundo plano, para poder dar de baja estos prosesos tenemos
+los comandos fg "%y vg
+ahora mismo tenemos un proseso en segundo plano
+a fg "% le pondremos el id de trabajo
+
+ps muestra los prosesos captura una foto
+ps -ef 
+
+ps -ef | frep firefox
+
+killall firefox
