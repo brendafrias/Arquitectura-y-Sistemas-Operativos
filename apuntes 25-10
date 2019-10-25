@@ -27,3 +27,11 @@ ps -ef
 ps -ef | frep firefox
 
 killall firefox
+
+
+grep Argentina datosParaGrep.csv
+grep -n brazil //nos muestra el numero de linea donde esta
+grep -v //muestra todos los pais menos brazil
+grep 45$ datosParaGrep.csv //usado para buscar la edad el $ sirve para indicar que termina el renglon o algo asi o.O
+^
+el grep se tomara en la parte practica del parcial
