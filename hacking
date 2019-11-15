@@ -1,0 +1,11 @@
+inurl:"/wp-content" site:*.gob.ar
+intitle:axis intitle:"video server"
+inurl:/view.shtml
+site:*.com ext:sql
+http://www.dvwa.co.uk/
+
+http://camera.buffalotrace.com/view/view.shtml?id=13751&imagePath=/mjpg/video.mjpg&size=1
+octavio villegas ext:pdf
+
+
+dni de octavio 25.524.076
