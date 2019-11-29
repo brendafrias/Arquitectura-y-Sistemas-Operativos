@@ -1,0 +1,4 @@
+en este archivo debe cargar los siguientes datos en un nuevo renglon
+
+apellido   nombre      IP          hora 
+frias	    brenda 192.168.2.142    10:03
